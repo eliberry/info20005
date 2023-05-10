@@ -2,12 +2,11 @@ body {
     background-color: antiquewhite;
 }
 
-
 /* format menu (headings) to lay out horizontally with the addition of the logo on the side*/
 
 header {
     background-color:tan;
-    padding: 20px 10px
+    padding: 30px 10px
 }
 
 /* buttons - Main page*/
