@@ -1,0 +1,25 @@
+body {
+    background-color: FFFEFD;
+}
+
+/* format menu (headings) to lay out horizontally with the addition of the logo on the side*/
+
+header {
+    background-color: #BFA891;
+    padding: 20px 10px;
+    text-align: left;
+    padding: 20px;
+    font-size: 30px;
+}
+
+footer {
+    position: absolute;
+width: 1280px;
+height: 183px;
+left: 0px;
+top: 1084px;
+
+background: #F4F1EB;
+/*arrange the text*/
+
+}
