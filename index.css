@@ -25,10 +25,10 @@ background: #F4F1EB;
 }
 
 .menu {
-    /* hello
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-
 
 
 
