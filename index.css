@@ -24,10 +24,15 @@ background: #F4F1EB;
 
 }
 
+.header {
+    display: flex;
+    align-items: left;
+}
+
 .menu {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: space-between;
 }
 
 
