@@ -24,17 +24,16 @@ background: #F4F1EB;
 
 }
 
-img {
-    width: 100px;
+.header {
+    display: flex;
+    align-items: left;
 }
 
-/* button {
-
-} */
-
-
-
-
+.menu {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
 
 
 
