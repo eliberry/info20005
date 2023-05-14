@@ -2,42 +2,30 @@ body {
     background-color: FFFEFD;
 }
 
-/* format menu (headings) to lay out horizontally with the addition of the logo on the side*/
-
 header {
     background-color: #BFA891;
     padding: 20px 10px;
-    text-align: left;
-    padding: 20px;
-    font-size: 30px;
+    margin-top: 0px;
+}
+
+.header {
+    display: inline-flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex; 
+    font-size: 10px;
 }
 
 footer {
     position: absolute;
-width: 1280px;
-height: 183px;
-left: 0px;
-top: 1084px;
-
-background: #F4F1EB;
-/*arrange the text*/
-
+    width: 1280px;
+    height: 183px;
+    left: 0px;
+    top: 1084px;
+    background: #F4F1EB;
 }
-
-.header {
-    display: flex;
-    align-items: left;
-}
-
-.menu {
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-}
-
-
-
-
 
 /* Main page */
 
