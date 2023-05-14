@@ -4,7 +4,7 @@ body {
 
 header {
     background-color: #BFA891;
-    padding: 20px 10px;
+    padding: 30px 40px;
     margin-top: 0px;
 }
 
@@ -16,6 +16,37 @@ header {
 .menu {
     display: flex; 
     font-size: 10px;
+    padding-left: 30px;
+}
+
+.explore {
+    padding-left: 60px;
+    padding-top: 70px;
+    max-width: 225px;
+}
+
+.here { /* here button */
+    background-color: #EDE1CB;
+    border: none;
+    padding: 13px 37px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.explorepicture {
+    position: absolute;
+    width: 360px;
+    height: 472.78px;
+    left: 740px;
+    top: 229.13px;
+    transform: rotate(-20deg);
+}
+
+.learn {
+    padding-left: 560px;
+    padding-top: 300px;
+    max-width: 250px;
 }
 
 footer {
@@ -26,100 +57,3 @@ footer {
     top: 1084px;
     background: #F4F1EB;
 }
-
-/* Main page */
-
-/*TEXT*/
-/*explore our range*/
-/* EXPLORE OUR RANGE
-
-position: absolute;
-width: 350px;
-height: 104px;
-left: 72px;
-top: 296px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 60px;
-line-height: 60px;
-
-leading-trim: both;
-text-edge: cap;
-display: flex;
-align-items: center;
-
-color: #333333;
-*/
-
-/*LEARN ABOUT OUR PROCESS
-position: absolute;
-width: 441px;
-height: 104px;
-left: 640px;
-top: 745px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 60px;
-line-height: 60px;
-
-leading-trim: both;
-text-edge: cap;
-display: flex;
-align-items: center;
-
-color: #333333;
-*/
-
-
-/*IMAGES*/
-/*for the image on the right (the coffee packaging)
-
-position: absolute;
-width: 360px;
-height: 472.78px;
-left: 740px;
-top: 229.13px;
-
-background: url(image.png);
-transform: rotate(-20deg);
-*/
-
-/* for the image on the left bottom (the cocoa)
-
-position: absolute;
-width: 475.66px;
-height: 360px;
-left: 68px;
-top: 740.64px;
-
-background: url(image.png);
-transform: rotate(-32.51deg);
-*/
-
-/*BUTTON*/
-
-/* TOP LEFT
-position: absolute;
-width: 130px;
-height: 49px;
-left: 72px;
-top: 424px;
-
-background: #EDE1CB;
-border-radius: 12px;
-*/
-
-/* BOTTOM RIGHT
-position: absolute;
-width: 130px;
-height: 49px;
-left: 640px;
-top: 882px;
-
-background: #EDE1CB;
-border-radius: 12px;
-*/
