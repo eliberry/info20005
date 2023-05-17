@@ -33,3 +33,81 @@ background: #F4F1EB;
     left: 1101px;
     top: 53px;
 }
+
+.bagIcon {
+    position: absolute;
+    width: 48px;
+    height: 41px;
+    left: 1177px;
+    top: 53px;  
+}
+
+/* header menu categories arrangement */
+
+.about {
+
+    position: absolute;
+    width: 56px;
+    height: 12px;
+    left: 219px;
+    top: 84px;
+
+    /* might change the font later on to a san serif one*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+
+    /* leading-trim: both;
+    text-edge: cap; */
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.our_range {
+
+    position: absolute;
+    width: 94px;
+    height: 12px;
+    left: 325px;
+    top: 84px;
+
+    /* might change the font later on to a san serif one*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+
+    /* leading-trim: both;
+    text-edge: cap; */
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.location {
+
+    position: absolute;
+    width: 102px;
+    height: 12px;
+    left: 469px;
+    top: 84px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+
+    /* leading-trim: both;
+    text-edge: cap; */
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
