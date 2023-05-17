@@ -5,12 +5,24 @@ body {
 /* format menu (headings) to lay out horizontally with the addition of the logo on the side*/
 
 header {
+    position: absolute
+    width: 1280px;
+    height: 182px;
+    left: 0px;
+    top: 0px;
+
     background-color: #BFA891;
-    padding: 20px 10px;
+
+    /* padding: 20px 10px;
     text-align: left;
     padding: 20px;
-    font-size: 30px;
+    font-size: 30px; */
 }
+
+
+
+
+
 
 footer {
     position: absolute;
