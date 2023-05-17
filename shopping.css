@@ -24,3 +24,14 @@ background: #F4F1EB;
 }
 
 
+/* the position and size for the search icon*/
+/*name it "search icon with div as a class for icons name:(.searchIcon)*/
+.searchIcon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1101px;
+    top: 53px;
+    
+}
+
