@@ -27,11 +27,11 @@ h1 {
     left: 498px;
     top: 252px;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+    /* font-family: 'Inter';
+    font-style: normal;*/
+    /* font-weight: 400;
     font-size: 38px;
-    line-height: 60px;
+    line-height: 60px; */
 
     display: flex;
     align-items: center;
@@ -41,12 +41,12 @@ h1 {
 
 footer {
     position: absolute;
-width: 1280px;
-height: 183px;
-left: 0px;
-top: 1084px;
+    width: 1280px;
+    height: 183px;
+    left: 0px;
+    top: 1084px;
 
-background: #F4F1EB;
+    background: #F4F1EB;
 /*arrange the text*/
 }
 
@@ -180,10 +180,156 @@ background: #F4F1EB;
     font-weight: 400;
     font-size: 19px;
     line-height: 30px;
-    
+
     display: flex;
     align-items: center;
     text-align: center;
 
     color: #333333;
 }
+
+.grams {
+    position: absolute;
+    width: 45px;
+    height: 13px;
+    left: 306px;
+    top: 453px;
+}
+
+.quantity {
+    position: absolute;
+    width: 6px;
+    height: 9px;
+    left: 396px;
+    top: 519px;
+}
+
+.price {
+    position: absolute;
+    width: 45px;
+    height: 14px;
+    left: 306px;
+    top: 599px;
+}
+
+.amount {
+    position: absolute;
+    width: 61px;
+    height: 14px;
+    left: 480px;
+    top: 600px;
+}
+
+/*calculation of total*/
+
+.subtotal {
+    position: absolute;
+    width: 83px;
+    height: 12px;
+    left: 764px;
+    top: 511px;
+}
+
+.subtotalAmount {
+    position: absolute;
+    width: 52px;
+    height: 12px;
+    left: 1193px;
+    top: 512px;
+}
+
+.shipping {
+    position: absolute;
+    width: 302px;
+    height: 12px;
+    left: 764px;
+    top: 541px;
+}
+
+.totalIncGST {
+    position: absolute;
+    width: 133px;
+    height: 12px;
+    left: 764px;
+    top: 590px;
+}
+
+
+/*border*/
+/* Rectangle 9 */
+
+/* position: absolute;
+width: 1280px;
+height: 399px;
+left: 0px;
+top: 347px;
+/* background: #F4F1EB; */
+
+.Morkpackaging {
+
+    position: absolute;
+    width: 180px;
+    height: 236px;
+    left: 80px;
+    top: 389px;
+}
+
+
+
+/*buttons design*/
+
+.apply_coupon{
+    position: absolute;
+    width: 159px;
+    height: 42px;
+    background: #EDE1CB;
+}
+
+.checkout {
+    position: absolute;
+    width: 160px;
+    height: 42px;
+    background: #736056;
+}
+
+.continue_shopping {
+    position: absolute;
+    width: 160px;
+    height: 42px;
+    background: #EDE1CB;
+    border-radius: 6px;
+}
+
+
+
+/* Rectangle 7 */
+/* 
+position: absolute;
+width: 160px;
+height: 42px;
+left: 560px;
+top: 788px;
+
+
+/* Rectangle 33 */
+
+/* position: absolute;
+width: 160px;
+height: 42px;
+left: 1090px;
+top: 636px;
+
+
+/* insert a border bg for the shopping cart*/
+
+border {
+    position: absolute;
+    width: 1280px;
+    height: 399px;
+    left: 0px;
+    top: 347px;
+
+    background: #F4F1EB;
+}
+
+
