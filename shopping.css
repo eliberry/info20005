@@ -4,6 +4,7 @@ body {
 
 /* format menu (headings) to lay out horizontally with the addition of the logo on the side*/
 
+/* come back to 
 header {
     position: absolute
     width: 1280px;
@@ -17,12 +18,26 @@ header {
     text-align: left;
     padding: 20px;
     font-size: 30px; */
+
+h1 {
+   
+    position: absolute;
+    width: 285px;
+    height: 28px;
+    left: 498px;
+    top: 252px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
 }
-
-
-
-
-
 
 footer {
     position: absolute;
@@ -52,6 +67,32 @@ background: #F4F1EB;
     height: 41px;
     left: 1177px;
     top: 53px;  
+}
+
+/* .closeIcon {
+
+    position: relative;
+    width: 29px;
+    height: 29px;
+    left: 10px;
+} */
+
+.minusIcon {
+
+    position: absolute;
+    width: 16px;
+    height: 0px;
+    left: 316px;
+    top: 524px;
+}
+
+.plusIcon {
+
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 477px;
+    top: 516px; 
 }
 
 /* header menu categories arrangement */
@@ -120,6 +161,29 @@ background: #F4F1EB;
     text-edge: cap; */
     display: flex;
     align-items: center;
+
+    color: #333333;
+}
+
+/*placements of the product description*/
+
+.name {
+    
+    position: absolute;
+    width: 202px;
+    height: 14px;
+    left: 306px;
+    top: 421px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
 
     color: #333333;
 }
