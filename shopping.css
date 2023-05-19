@@ -180,10 +180,38 @@ background: #F4F1EB;
     font-weight: 400;
     font-size: 19px;
     line-height: 30px;
-    
+
     display: flex;
     align-items: center;
     text-align: center;
 
     color: #333333;
+}
+
+
+/*border*/
+/* Rectangle 9 */
+
+/* position: absolute;
+width: 1280px;
+height: 399px;
+left: 0px;
+top: 347px;
+/* background: #F4F1EB; */
+
+.Morkpackaging {
+
+    position: absolute;
+    width: 180px;
+    height: 236px;
+    left: 80px;
+    top: 389px;
+
+}
+
+
+
+/*buttons design*/
+.apply_coupon {
+    
 }
