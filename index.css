@@ -25,6 +25,10 @@ header {
     padding-left: 30px;
 }
 
+.headericons {
+    padding-left: 600px; 
+}
+
 .explore {
     padding-left: 60px;
     padding-top: 70px;
@@ -72,4 +76,13 @@ footer {
     top: 1084px;
     background: #F4F1EB;
     padding: 30px 40px;
+    
+}
+
+.contact {
+    display: inline-flex;
+}
+
+.socials {
+    padding-left: 900px;
 }
