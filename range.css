@@ -34,6 +34,10 @@ p {
     color: #333333;
 }
 
+.productgrid {
+    display: grid;
+}
+
 /* i think i gotta make a grid ?????????????? */
 .marshmallow {
     transform: rotate(-20deg);
