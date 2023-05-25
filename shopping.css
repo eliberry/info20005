@@ -342,3 +342,15 @@ top: 636px;
     border-radius: 6px;
     font-size: 20px;
 } */
+
+
+.container {
+
+    position: absolute;
+    width: 1280px;
+    height: 399px;
+    left: 0px;
+    top: 347px;
+
+    background: #F4F1EB;
+}
