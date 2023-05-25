@@ -5,3 +5,11 @@ header {
     padding: 20px;
     font-size: 30px;
 }
+
+.contact {
+    position: absolute;
+    width: 68px;
+    height: 10px;
+    top: 320px;
+    left: 94px;
+}
