@@ -7,108 +7,7 @@ header {
     margin-top: 0px;
 }
 
-/* BODY */
-
-body {
-    background-color: FFFEFD;
-}
-
-h1 {
-   
-    position: absolute;
-    width: 285px;
-    height: 28px;
-    left: 498px;
-    top: 252px;
-
-    /* font-family: 'Inter';
-    font-style: normal;*/
-    /* font-weight: 400;
-    font-size: 38px;
-    line-height: 60px; */
-
-    display: flex;
-    align-items: center;
-
-    color: #333333;
-}
-
-
-/* come back to 
-header {
-    position: absolute
-    width: 1280px;
-    height: 182px;
-    left: 0px;
-    top: 0px;
-
-    background-color: #BFA891;
-
-    /* padding: 20px 10px;
-    text-align: left;
-    padding: 20px;
-    font-size: 30px; */
-
-
-
-footer {
-    position: absolute;
-    width: 1280px;
-    height: 183px;
-    left: 0px;
-    top: 1084px;
-
-    background: #F4F1EB;
-/*arrange the text*/
-}
-
-
-/* the position and size for the search icon*/
-/*name it "search icon with div as a class for icons name:(.searchIcon)*/
-.searchIcon {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 1101px;
-    top: 53px;
-}
-
-.bagIcon {
-    position: absolute;
-    width: 48px;
-    height: 41px;
-    left: 1177px;
-    top: 53px;  
-}
-
-/* .closeIcon {
-
-    position: relative;
-    width: 29px;
-    height: 29px;
-    left: 10px;
-} */
-
-.minusIcon {
-
-    position: absolute;
-    width: 16px;
-    height: 0px;
-    left: 316px;
-    top: 524px;
-}
-
-.plusIcon {
-
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 477px;
-    top: 516px; 
-}
-
-/* header menu categories arrangement */
-
+/* HEADER - MENU */
 .about {
 
     position: absolute;
@@ -133,7 +32,6 @@ footer {
 }
 
 .our_range {
-
     position: absolute;
     width: 94px;
     height: 12px;
@@ -156,7 +54,6 @@ footer {
 }
 
 .location {
-
     position: absolute;
     width: 102px;
     height: 12px;
@@ -177,8 +74,55 @@ footer {
     color: #333333;
 }
 
-/*placements of the product description*/
+/* BODY */
 
+body {
+    background-color: FFFEFD;
+}
+
+/* title - shopping bag */
+h1 {
+    position: absolute;
+    width: 285px;
+    height: 28px;
+    left: 498px;
+    top: 252px;
+
+    /* search for a suitable font and use it for the entire website as "inter" does not exist in css*/
+    /* font-family: 'Inter';
+    font-style: normal;*/
+    /* font-weight: 400;
+    font-size: 38px;
+    line-height: 60px; */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+/* CONTAINER - in the middle behind text */
+.container {
+    position: absolute;
+    width: 1280px;
+    height: 399px;
+    left: 0px;
+    top: 347px;
+
+    background: #F4F1EB;
+}
+
+/* PACKAGING IMAGE */
+.morkPackagingPic {
+
+    position: absolute;
+    width: 180px;
+    height: 236px;
+    left: 80px;
+    top: 389px;
+}
+
+/* TEXT - product description on left */
 .name {
     
     position: absolute;
@@ -267,29 +211,54 @@ footer {
     top: 590px;
 }
 
+/* ICONS */
 
-/*border*/
-/* Rectangle 9 */
-
-/* position: absolute;
-width: 1280px;
-height: 399px;
-left: 0px;
-top: 347px;
-/* background: #F4F1EB; */
-
-.morkPackagingPic {
-
+.searchIcon {
     position: absolute;
-    width: 180px;
-    height: 236px;
-    left: 80px;
-    top: 389px;
+    width: 100px;
+    height: 100px;
+    left: 1101px;
+    top: 53px;
 }
 
+.bagIcon {
+    position: absolute;
+    width: 48px;
+    height: 41px;
+    left: 1177px;
+    top: 53px;  
+}
+
+.closeIcon {
+
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 8.46px;
+    height: 8.46px;
 
 
-/*buttons design*/
+}
+
+.minusIcon {
+
+    position: absolute;
+    width: 16px;
+    height: 0px;
+    left: 316px;
+    top: 524px;
+}
+
+.plusIcon {
+
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 477px;
+    top: 516px; 
+}
+
+/* BUTTONS */
 
 .apply_coupon{
     position: absolute;
@@ -312,6 +281,58 @@ top: 347px;
     background: #EDE1CB;
     border-radius: 6px;
 }
+
+
+
+
+
+
+/* come back to 
+header {
+    position: absolute
+    width: 1280px;
+    height: 182px;
+    left: 0px;
+    top: 0px;
+
+    background-color: #BFA891;
+
+    /* padding: 20px 10px;
+    text-align: left;
+    padding: 20px;
+    font-size: 30px; */
+
+
+
+
+
+/* the position and size for the search icon*/
+/*name it "search icon with div as a class for icons name:(.searchIcon)*/
+
+
+/* header menu categories arrangement */
+
+
+/*placements of the product description*/
+
+
+
+/*border*/
+/* Rectangle 9 */
+
+/* position: absolute;
+width: 1280px;
+height: 399px;
+left: 0px;
+top: 347px;
+/* background: #F4F1EB; */
+
+
+
+
+/*buttons design*/
+
+
 
 
 /* Rectangle 7 */
@@ -356,13 +377,17 @@ top: 636px;
 } */
 
 
-.container {
 
+
+
+/* FOOTER */
+/* copy and paste from index when finalised */
+footer {
     position: absolute;
     width: 1280px;
-    height: 399px;
+    height: 183px;
     left: 0px;
-    top: 347px;
-
+    top: 1084px;
     background: #F4F1EB;
+    padding: 30px 40px;
 }
