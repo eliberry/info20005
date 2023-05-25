@@ -1,23 +1,17 @@
+/* HEADER */
+
+/* ensure to incorporate changes before submitting the final from idex */
+header {
+    background-color: #BFA891;
+    padding: 30px 40px;
+    margin-top: 0px;
+}
+
+/* BODY */
+
 body {
     background-color: FFFEFD;
 }
-
-/* format menu (headings) to lay out horizontally with the addition of the logo on the side*/
-
-/* come back to 
-header {
-    position: absolute
-    width: 1280px;
-    height: 182px;
-    left: 0px;
-    top: 0px;
-
-    background-color: #BFA891;
-
-    /* padding: 20px 10px;
-    text-align: left;
-    padding: 20px;
-    font-size: 30px; */
 
 h1 {
    
@@ -38,6 +32,24 @@ h1 {
 
     color: #333333;
 }
+
+
+/* come back to 
+header {
+    position: absolute
+    width: 1280px;
+    height: 182px;
+    left: 0px;
+    top: 0px;
+
+    background-color: #BFA891;
+
+    /* padding: 20px 10px;
+    text-align: left;
+    padding: 20px;
+    font-size: 30px; */
+
+
 
 footer {
     position: absolute;
@@ -266,7 +278,7 @@ left: 0px;
 top: 347px;
 /* background: #F4F1EB; */
 
-.Morkpackaging {
+.morkPackagingPic {
 
     position: absolute;
     width: 180px;
