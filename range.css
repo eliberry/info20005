@@ -2,25 +2,34 @@ body {
     background-color: FFFEFD;
 }
 
-/* format menu (headings) to lay out horizontally with the addition of the logo on the side*/
-
-header {
-    background-color: #BFA891;
-    padding: 20px 10px;
-    text-align: left;
-    padding: 20px;
-    font-size: 30px;
+p {
+    font-family: Verdana, sans-serif;
+    font-weight: lighter;
+    color: #333333;
 }
 
-footer {
-    position: absolute;
-width: 1280px;
-height: 183px;
-left: 0px;
-top: 1084px;
-
-background: #F4F1EB;
-/*arrange the text*/
-
+.info {
+    position:absolute;
+    text-align: center; /* HELP */
 }
 
+.title {
+    font-size: 38px;
+}
+
+.infotext {
+    font-size: 12px;
+    max-width: 325px;
+}
+
+.read {
+    background-color: #EDE1CB;
+    border: none;
+    padding: 13px 37px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+    font-weight: lighter;
+    color: #333333;
+}
