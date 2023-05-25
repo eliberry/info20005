@@ -9,8 +9,8 @@ p {
 }
 
 .info {
-    position:absolute;
-    text-align: center; /* HELP */
+    position: absolute;
+    text-align: center; /* HELP :: need to center on the pageeeeee */
 }
 
 .title {
@@ -32,4 +32,14 @@ p {
     font-family: Verdana, sans-serif;
     font-weight: lighter;
     color: #333333;
+}
+
+/* i think i gotta make a grid ?????????????? */
+.marshmallow {
+    transform: rotate(-20deg);
+}
+
+.specialtext {
+    font-size: 10px;
+    max-width: 250px;
 }
