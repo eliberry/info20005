@@ -10,7 +10,6 @@ header {
 
 /* HEADER - MENU */
 .about {
-
     position: absolute;
     width: 56px;
     height: 12px;
@@ -121,6 +120,22 @@ body {
     background: #F4F1EB;
 }
 
+.myOrder {
+    margin: auto;
+    
+
+}
+
+
+
+
+/* <div class="orderConfirmationDetails"> <!--menu titles on the header of the website-->
+<div class="myOrder">MY ORDER</div>
+<div class="name">ORIGINAL DARK - 70%</div>
+<div class="grams">250g</div>
+<div class="orderNum">Order no. 35482348273</div>
+<div class="quantity">1 x $27.00</div>
+</div> */
 
 
 
