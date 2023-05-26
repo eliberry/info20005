@@ -1,0 +1,139 @@
+/* HEADER */
+
+/* ensure to incorporate changes before submitting the final from idex */
+header {
+    background-color: #BFA891;
+    text-align: left;
+    padding: 30px 40px;
+    margin-top: auto;
+}
+
+/* HEADER - MENU */
+.about {
+
+    position: absolute;
+    width: 56px;
+    height: 12px;
+    left: 219px;
+    top: 84px;
+
+    /* might change the font later on to a san serif one*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+
+    /* leading-trim: both;
+    text-edge: cap; */
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.our_range {
+    position: absolute;
+    width: 94px;
+    height: 12px;
+    left: 325px;
+    top: 84px;
+
+    /* might change the font later on to a san serif one*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+
+    /* leading-trim: both;
+    text-edge: cap; */
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+.location {
+    position: absolute;
+    width: 102px;
+    height: 12px;
+    left: 469px;
+    top: 84px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+
+    /* leading-trim: both;
+    text-edge: cap; */
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}
+
+/* BODY */
+
+body {
+    background-color: FFFEFD;
+}
+
+/* title - shopping bag */
+/* h1 {
+    text-align: center;
+    width: 285px;
+    height: 28px;
+    left: 498px;
+    top: 252px; */
+
+    h1 {
+        text-align: center;
+        margin: auto;
+        padding: 25px;
+        width: 286px;
+        height: 21px;
+    }
+
+    /* search for a suitable font and use it for the entire website as "inter" does not exist in css*/
+    /* font-family: 'Inter';
+    font-style: normal;*/
+    /* font-weight: 400;
+    font-size: 38px;
+    line-height: 60px; */
+
+    /* display: flex;
+    align-items: center;
+
+    color: #333333;
+} */
+
+/* CONTAINER - in the middle behind text */
+.container {
+    margin: auto;
+    width: 1010px;
+    height: 721px;
+    left: 135px;
+    top: 268px;
+
+    background: #F4F1EB;
+}
+
+
+
+
+
+
+/* FOOTER */
+/* copy and paste from index when finalised */
+footer {
+    margin: auto;
+    width: 1280px;
+    height: 183px;
+    left: 0px;
+    top: 1084px;
+    background: #F4F1EB;
+    padding: 30px 40px;
+}

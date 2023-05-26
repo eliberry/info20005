@@ -3,8 +3,9 @@
 /* ensure to incorporate changes before submitting the final from idex */
 header {
     background-color: #BFA891;
+    text-align: left;
     padding: 30px 40px;
-    margin-top: 0px;
+    margin-top: auto;
 }
 
 /* HEADER - MENU */
@@ -81,12 +82,18 @@ body {
 }
 
 /* title - shopping bag */
-h1 {
-    position: absolute;
+/* h1 {
+    text-align: center;
     width: 285px;
     height: 28px;
     left: 498px;
-    top: 252px;
+    top: 252px; */
+
+    h1 {
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+    }
 
     /* search for a suitable font and use it for the entire website as "inter" does not exist in css*/
     /* font-family: 'Inter';
@@ -95,15 +102,15 @@ h1 {
     font-size: 38px;
     line-height: 60px; */
 
-    display: flex;
+    /* display: flex;
     align-items: center;
 
     color: #333333;
-}
+} */
 
 /* CONTAINER - in the middle behind text */
 .container {
-    position: absolute;
+    margin: auto;
     width: 1280px;
     height: 399px;
     left: 0px;
@@ -114,8 +121,7 @@ h1 {
 
 /* PACKAGING IMAGE */
 .morkPackagingPic {
-
-    position: absolute;
+    margin: auto;
     width: 180px;
     height: 236px;
     left: 80px;
