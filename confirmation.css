@@ -91,7 +91,7 @@ body {
     h1 {
         text-align: center;
         margin: auto;
-        padding: 25px;
+        padding: 20px;
         width: 286px;
         height: 21px;
     }
@@ -120,23 +120,168 @@ body {
     background: #F4F1EB;
 }
 
-.myOrder {
-    margin: auto;
-    
 
+/* ORDER CONFIRMED DETAILS TOP */
+/* change to responsive ltr */
+
+.myOrder {
+    /* text-align: left;
+    margin: auto; */
+    position: absolute;
+    width: 104px;
+    height: 15px;
+    left: 187px;
+    top: 299px;
 }
 
+.name {
+    position: absolute;
+    width: 245px;
+    height: 17px;
+    left: 307px;
+    top: 366px;
+}
+
+.grams {
+    position: absolute;
+    width: 57px;
+    height: 17px;
+    left: 307px;
+    top: 400px;
+}
+
+.orderNum {
+    position: absolute;
+    width: 231px;
+    height: 15px;
+    left: 871px;
+    top: 299px;
+}
+
+.quantity {
+    position: absolute;
+    width: 112px;
+    height: 17px;
+    left: 976px;
+    top: 366px;
+}
+
+/* SUBTOTAL AT THE MIDDLE SECTION */
+
+.subtotal {
+    position: absolute;
+    width: 114px;
+    height: 16px;
+    left: 184px;
+    top: 514px;
+}
+
+.subtotalAmount {
+    position: absolute;
+    width: 71px;
+    height: 16px;
+    left: 1024px;
+    top: 522px;
+}
+
+.shipping {
+    position: absolute;
+    width: 103px;
+    height: 16px;
+    left: 185px;
+    top: 554px;
+}
+
+.shippingFee {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 1041px;
+    top: 558px;
+}
+
+hr {
+    margin: auto;
+    width: 918px;
+    left: 184px;
+    top: 598px;
+}
+
+.totalIncGST {
+    position: absolute;
+    width: 183px;
+    height: 16px;
+    left: 185px;
+    top: 629px;
+}
+
+.totalCost {
+    position: absolute;
+    width: 75px;
+    height: 16px;
+    left: 1020px;
+    top: 628px;
+}
+
+/* PERSONAL DETAILS AT THE BOTTOM SECTION */
+
+.shippingTo {
+    position: absolute;
+    width: 112px;
+    height: 15px;
+    left: 187px;
+    top: 680px;
+}
+
+.shippingAddress1 {
+    position: absolute;
+    width: 244px;
+    height: 12px;
+    left: 187px;
+    top: 720px;
+}
+
+.shippingAddress2 {
+    position: absolute;
+    width: 218px;
+    height: 12px;
+    left: 187px;
+    top: 745px;
+}
+
+.payment {
+    position: absolute;
+    width: 86px;
+    height: 15px;
+    left: 187px;
+    top: 788px;
+}
+
+.paymentDetails {
+    position: absolute;
+    width: 145px;
+    height: 12px;
+    left: 187px;
+    top: 826px;
+}
+
+/* insert a vertical line here*/
 
 
 
-/* <div class="orderConfirmationDetails"> <!--menu titles on the header of the website-->
-<div class="myOrder">MY ORDER</div>
-<div class="name">ORIGINAL DARK - 70%</div>
-<div class="grams">250g</div>
-<div class="orderNum">Order no. 35482348273</div>
-<div class="quantity">1 x $27.00</div>
-</div> */
 
+
+/* <div class="personalDetails">
+        <div class="shippingTo">Shipping to</div> <!--BOLD-->
+        <div class="shippingAddress1">Unit 1 Building A, William Streets</div>
+        <div class="shippingAddress2">Melbourne Central, Vic 3000</div>
+        <div class="payment">Payment</div> <!--BOLD-->
+        <div class="paymentDetails">Visa ***********02</div>
+        <!--insert a vertical line across to separate them-->
+        <div class="billingTo">Billing To</div>
+        <div class="billingAdress1">Unit 1 Building A, William Streets</div>
+        <div class="billingAdress2">Melbourne Central, Vic 3000</div>
+    </div> */
 
 
 
