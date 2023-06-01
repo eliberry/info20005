@@ -18,6 +18,7 @@ header {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
 }
@@ -33,13 +34,6 @@ header {
     /* gonna come back to this */
 }
 
-.explore {
-    padding-left: 60px;
-    padding-top: 70px;
-    max-width: 250px;
-    font-size: 38px;
-}
-
 .here { /* here button */
     background-color: #EDE1CB;
     border: none;
@@ -49,28 +43,39 @@ header {
     font-size: 20px;
 }
 
-.explorepicture {
-    position: absolute;
-    width: 360px;
-    height: 472.78px;
-    left: 740px;
-    top: 229.13px;
-    transform: rotate(-20deg);
+.explorebox {
+    display: flex;
 }
 
-.processpicture {
-    position: absolute;
-    height: 360px;
-    top: 700px;
-    transform: rotate(-32deg);
+    .explore {
+        padding-left: 60px;
+        padding-top: 70px;
+        max-width: 250px;
+        font-size: 38px;
+    }
+
+
+
+    .explorepicture {
+        width: 360px;
+        height: 472.78px;
+        transform: rotate(-20deg);
+    }
+
+.learnbox {
+    display: flex;
+    padding-top: 100px;
 }
 
-.learn {
-    padding-left: 660px;
-    padding-top: 300px;
-    max-width: 300px;
-    font-size: 38px;
-}
+    .processpicture {
+        height: 360px;
+        transform: rotate(-32deg);
+    }
+
+    .learn {
+        max-width: 300px;
+        font-size: 38px;
+    }
 
 footer {
     position: absolute;
