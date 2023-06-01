@@ -1,11 +1,13 @@
 body {
     background-color: FFFEFD;
-}
-
-p {
     font-family: Verdana, sans-serif;
     font-weight: lighter;
     color: #333333;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: lighter;
 }
 
 header {
@@ -31,10 +33,6 @@ header {
 .info {
     position: flex;
     text-align: center; 
-}
-
-.title {
-    font-size: 38px;
 }
 
 .infotext {
