@@ -30,7 +30,7 @@ header {
 
 .info {
     position: flex;
-    text-align: center; /* WHY IS THE INFO TEXT ON THE LEFT LMAO */
+    text-align: center; 
 }
 
 .title {
@@ -39,7 +39,7 @@ header {
 
 .infotext {
     font-size: 12px;
-    max-width: 325px;
+    max-width: 325px;/* means it cant be centered tho */
 }
 
 .read {
@@ -59,7 +59,18 @@ header {
     flex-wrap: wrap;
     max-width: 600px; /* makes the container 600px but also means it can't be in center of page hmm */
     justify-content: center;
-    font-size: 10px;
+    font-size: 10px; 
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.special {
+    display: flex;
+    flex-direction: column; /*need to put it to the right of the image tho hmmmm */
+}
+
+.specialtitle {
+    font-size: 15px;
 }
 
 .specialtext {
