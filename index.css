@@ -21,6 +21,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
+    max-width: 100%;
 }
 
     .menu {
@@ -29,6 +30,18 @@ header {
         font-size: 16px;
         padding-left: 30px;
     } 
+
+    .about {
+        padding-right: 20px;
+    }
+
+    .ourrange {
+        padding-right: 20px;
+    }
+
+    .headericons {
+        margin-left: auto;
+    }
 
 .here { /* here button */
     background-color: #EDE1CB;
@@ -59,10 +72,10 @@ header {
 .learnbox {
     display: flex;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
     .processpicture {
-        height: 360px;
         transform: rotate(-32deg);
     }
 
@@ -86,7 +99,8 @@ footer {
     justify-content: space-between;
 }
     .socials {
-        padding-right: 30px; /* HOW DO I ADD PADDING TO THIS BRUH */
+        padding-right: 30px; 
+        padding-top: 10px;
     }
 
 @media only screen and (max-width: 600px) {
