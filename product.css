@@ -32,6 +32,18 @@ header {
         padding-left: 30px;
     } 
 
+    .about {
+        padding-right: 20px;
+    }
+
+    .ourrange {
+        padding-right: 20px;
+    }
+
+    .headericons {
+        margin-left: auto;
+    }
+
 .product {
     display: flex;
     align-items: center;
