@@ -8,17 +8,20 @@
     <title>Checkout | Mörk</title>
 </head>
 <body>
+
     <header>
         <!--mork logo-->
         <img src="mork logo.png" alt="Mork Chocolate Logo"
             width="123.46"
             height="100">
         <!--menu subheadings-->
-        <div class="menu"> <!--menu titles on the header of the website-->
-            <div class="about">ABOUT</div>
+        <!-- <div class="menu"> menu titles on the header of the website -->
+            <!-- <div class="about">ABOUT</div>
             <div class="our_range">OUR RANGE</div>
             <div class="location">LOCATION</div>
-        </div>
+        </div> -->
+
+        <p id="about" style="font-size:5vw">ABOUT</p>
 
     </header>
 
@@ -50,15 +53,16 @@
         <div class="subtotalAmount">$27.00</div>
         <div class="shipping">SHIPPING CALCULATED AT CHECKOUT</div>
         <div class="totalIncGST">TOTAL INCL. GST</div>
+        <div class="finalTotal">$27.00</div>
     </div>
 
     <!--classifications of icons--> <!--change them to new ones and reattached file-->
     <div class="icons">
         <div class="searchIcon">
-            <img src="searchIcon.png" alt="Search Icon">
+            <img src="search.png" alt="Search Icon">
         </div>
         <div class="bagIcon">
-            <img src="bagIcon.png" alt="Shopping Bag Icon">
+            <img src="bag.png" alt="Shopping Bag Icon">
         </div>
         <div class="closeIcon">
             <img src="closeIcon.png" alt="Close X Icon">
@@ -70,6 +74,9 @@
             <img src="plusIcon.png" alt="Plus QTY Icon">
         </div>
     </div>
+
+    <!--input text for coupon code-->
+    <input type="text" id="coupon" name="coupon" placeholder="Coupon code">
 
     <!--buttons for shopping cart page-->
     <button class="apply_coupon">APPLY COUPON</button> 
