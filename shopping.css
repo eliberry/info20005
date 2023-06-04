@@ -2,10 +2,13 @@
 
 /* ensure to incorporate changes before submitting the final from idex */
 header {
+    min-height: 100vh;
+    width: 100%;
     background-color: #BFA891;
-    text-align: left;
-    padding: 30px 40px;
-    margin-top: auto;
+    /* text-align: left; */
+    padding: 10px 40px;
+    /* margin-top: auto; */
+    position: relative;
 }
 
 
