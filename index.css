@@ -67,6 +67,8 @@ header {
         width: 360px;
         height: 472.78px;
         transform: rotate(-20deg);
+        margin-left: auto;
+        padding-right: 100px;
     }
 
 .learnbox {
@@ -108,12 +110,16 @@ footer {
         background: #BFA891; /* changes colour of footer when on a small screen */
     }
     .menu {
-        display: none;
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .about {
+        padding-right: 10px;
+    }
+    .ourrange {
+        padding-right: 10px;
     }
     .explore {
-        font-size: 20px;
-    }
-    .learn {
         font-size: 20px;
     }
 } 
