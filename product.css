@@ -85,6 +85,10 @@ header {
     text-emphasis-color: #FFFEFD;
 }
 
+.discoverMoreText {
+    padding-left: 30px;
+}
+
 .discoverMore {
     display: flex;
     align-items: center;
