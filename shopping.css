@@ -1,18 +1,43 @@
 /* HEADER */
 
-/* ensure to incorporate changes before submitting the final from idex */
 header {
-    /* min-height: 100vh;
-    width: 100%;
     background-color: #BFA891;
-    /* text-align: left; */
-    /* padding: 10px 40px; */
-    /* margin-top: auto; */
-    /* position: relative; */ 
-
-    margin: 0;
     padding: 30px 40px;
-    background-color: #BFA891;
+    margin-top: 0px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.menu {
+     display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-left: 30px;
+ } 
+
+.about {
+    padding-right: 20px;
+    cursor: pointer;
+ }
+
+.ourRange {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.locations {
+    cursor: pointer;
+ }
+
+.headerIcons {
+    margin-left: auto;
+    cursor: pointer;
 }
 
 div{
@@ -21,76 +46,6 @@ div{
 }
 
 
-/* HEADER - MENU */
-#about {
-
-    position: relative;
-    top: 84px;
-    left: 219px;
-    display: flex;
-    
-    /* margin-left: 10px;
-    margin-right: 30px; */
-    width: 56px;
-    height: 12px;
-    /* left: 219px;
-    top: 84px; */
-    /* font-weight: 400;
-    font-size: 16px;
-    line-height: 12px;
-
-    /* leading-trim: both;
-    text-edge: cap; */
-    /* display: flex;
-    align-items: center; */ 
-    
-
-    color: #333333;
-}
-
-.our_range {
-    position: absolute;
-    width: 94px;
-    height: 12px;
-    left: 325px;
-    top: 84px;
-
-    /* might change the font later on to a san serif one*/
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 12px;
-
-    /* leading-trim: both;
-    text-edge: cap; */
-    display: flex;
-    align-items: center;
-
-    color: #333333;
-}
-
-.location {
-    position: absolute;
-    width: 102px;
-    height: 12px;
-    left: 469px;
-    top: 84px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 12px;
-
-    /* leading-trim: both;
-    text-edge: cap; */
-    display: flex;
-    align-items: center;
-
-    color: #333333;
-}
-
 /* BODY */
 
 body {
@@ -98,12 +53,6 @@ body {
 }
 
 /* title - shopping bag */
-/* h1 {
-    text-align: center;
-    width: 285px;
-    height: 28px;
-    left: 498px;
-    top: 252px; */
 
     h1 {
         text-align: center;
@@ -111,18 +60,6 @@ body {
         padding: 50px;
     }
 
-    /* search for a suitable font and use it for the entire website as "inter" does not exist in css*/
-    /* font-family: 'Inter';
-    font-style: normal;*/
-    /* font-weight: 400;
-    font-size: 38px;
-    line-height: 60px; */
-
-    /* display: flex;
-    align-items: center;
-
-    color: #333333;
-} */
 
 /* CONTAINER - in the middle behind text */
 .container {
@@ -137,7 +74,7 @@ body {
 
 /* PACKAGING IMAGE */
 .morkPackagingPic {
-    margin: auto;
+    position: absolute;
     width: 180px;
     height: 236px;
     left: 80px;
@@ -153,8 +90,6 @@ body {
     left: 306px;
     top: 421px;
 
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 19px;
     line-height: 30px;
@@ -164,6 +99,7 @@ body {
     text-align: center;
 
     color: #333333;
+    
 }
 
 .grams {
@@ -172,7 +108,7 @@ body {
     height: 13px;
     left: 306px;
     top: 453px;
-    padding: 0%;
+    
 }
 
 .quantity {
@@ -233,6 +169,14 @@ body {
     top: 590px;
 }
 
+.finalTotal {
+    position: absolute;
+    width: 55px;
+    height: 12px;
+    left: 1190px;
+    top: 590px;
+}
+
 /* ICONS */
 
 .searchIcon {
@@ -286,6 +230,8 @@ body {
     position: absolute;
     width: 159px;
     height: 42px;
+    top: 450px;
+    left: 1086px;
     background: #EDE1CB;
 }
 
@@ -293,123 +239,108 @@ body {
     position: absolute;
     width: 160px;
     height: 42px;
+    left: 1090px;
+    top: 670px;
     background: #736056;
+
+    text-decoration-color: #F4F1EB;
 }
+
+
 
 .continue_shopping {
-    position: absolute;
+    margin: auto;
     width: 160px;
     height: 42px;
+    left: 560px;
+    top: 788px;
     background: #EDE1CB;
     border-radius: 6px;
+    align-items: center;
 }
 
 
 
+#coupon{
 
-
-
-/* come back to 
-header {
-    position: absolute
-    width: 1280px;
-    height: 182px;
-    left: 0px;
-    top: 0px;
-
-    background-color: #BFA891;
-
-    /* padding: 20px 10px;
-    text-align: left;
-    padding: 20px;
-    font-size: 30px; */
-
-
-
-
-
-/* the position and size for the search icon*/
-/*name it "search icon with div as a class for icons name:(.searchIcon)*/
-
-
-/* header menu categories arrangement */
-
-
-/*placements of the product description*/
-
-
-
-/*border*/
-/* Rectangle 9 */
-
-/* position: absolute;
-width: 1280px;
-height: 399px;
-left: 0px;
-top: 347px;
-/* background: #F4F1EB; */
-
-
-
-
-/*buttons design*/
-
-
-
-
-/* Rectangle 7 */
-/* 
-position: absolute;
-width: 160px;
-height: 42px;
-left: 560px;
-top: 788px;
-
-
-/* Rectangle 33 */
-
-/* position: absolute;
-width: 160px;
-height: 42px;
-left: 1090px;
-top: 636px;
-
-
-/* insert a border bg for the shopping cart*/
-
-/* border {
     position: absolute;
-    width: 1280px;
-    height: 399px;
-    left: 0px;
-    top: 347px;
+    width: 308px;
+    height: 42px;
+    left: 764px;
+    top: 450px;
+    border: 1px solid #333333;
 
-    background: #F4F1EB;
-} */
+}
 
+/* LINES */
+.one{
+    position: absolute;
+    width: 202px;
+    height: 0px;
+    left: 335px;
+    top: 520px;
 
-/* button css - just need to adjust the padding*/
-/* .here { 
-    background-color: #EDE1CB;
-    border: none;
-    padding: 13px 37px;
-    text-align: center;
-    border-radius: 6px;
-    font-size: 20px;
-} */
+    border: 1px solid #333333;
+}
 
+.two{
+    position: absolute;
+    width: 202px;
+    height: 0px;
+    left: 335px;
+    top: 580px;
 
+    border: 1px solid #333333;
+}
 
+.three{
+    position: absolute;
+    width: 481px;
+    height: 0px;
+    left: 780px;
+    top: 595px;
+    border: 1px solid #000000;
+}
 
+/*ICONS*/
+
+.closeIcon{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 40px;
+    top: 450px;
+    scale: 60%
+;
+}
 
 /* FOOTER */
 /* copy and paste from index when finalised */
-footer {
-    position: absolute;
-    width: 1280px;
-    height: 183px;
-    left: 0px;
-    top: 1084px;
-    background: #F4F1EB;
-    padding: 30px 40px;
+.footer {
+    display: flex;
+    justify-content: space-between;
 }
+    .socials {
+        padding-right: 30px; 
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+@media only screen and (max-width: 600px) {
+    footer {
+        background: #BFA891; /* changes colour of footer when on a small screen */
+    }
+    .menu {
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .about {
+        padding-right: 10px;
+    }
+    .ourrange {
+        padding-right: 10px;
+    }
+    .explore {
+        font-size: 20px;
+    }
+} 
