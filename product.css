@@ -34,14 +34,21 @@ header {
 
     .about {
         padding-right: 20px;
+        cursor: pointer;
     }
 
     .ourRange {
         padding-right: 20px;
+        cursor: pointer;
+    }
+
+    .locations {
+        cursor: pointer;
     }
 
     .headerIcons {
         margin-left: auto;
+        cursor: pointer;
     }
 
 .product {
@@ -100,4 +107,15 @@ footer {
     .socials {
         padding-right: 30px; 
         padding-top: 10px;
+        cursor: pointer;
     }
+
+@media only screen and (max-width: 600px) {
+    footer {
+        background: #BFA891; /* changes colour of footer when on a small screen */
+    }
+    .menu {
+        font-size: 10px;
+        padding-left: 20px;
+    }
+} 

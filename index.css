@@ -33,14 +33,21 @@ header {
 
     .about {
         padding-right: 20px;
+        cursor: pointer;
     }
 
     .ourRange {
         padding-right: 20px;
+        cursor: pointer;
+    }
+
+    .locations {
+        cursor: pointer;
     }
 
     .headerIcons {
         margin-left: auto;
+        cursor: pointer;
     }
 
 .here { /* here button */
@@ -50,6 +57,7 @@ header {
     text-align: center;
     border-radius: 6px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .exploreBox {
@@ -103,6 +111,7 @@ footer {
     .socials {
         padding-right: 30px; 
         padding-top: 10px;
+        cursor: pointer;
     }
 
 @media only screen and (max-width: 600px) {
