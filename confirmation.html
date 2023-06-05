@@ -9,17 +9,29 @@
 </head>
 <body>
     <header>
-        <!--mork logo-->
-        <img src="mork logo.png" alt="Mork Chocolate Logo"
-            width="123.46"
-            height="100">
-        <!--menu subheadings-->
-        <div class="menu"> <!--menu titles on the header of the website-->
-            <div class="about">ABOUT</div>
-            <div class="our_range">OUR RANGE</div>
-            <div class="location">LOCATION</div>
+        <div class="header">
+            <img src="morkLogo.png" alt="Mork Chocolate Logo" height="100px">
+    
+            <div class="menu">
+                <div class="about">
+                    <p>ABOUT</p>
+                </div>
+                
+                <div class="ourRange">
+                    <p>OUR RANGE</p>
+                </div>
+                
+                <div class="locations">
+                    <p>LOCATIONS</p>
+                </div>
+            </div>
+    
+            <div class="headerIcons">
+                <img src="search.png" height="30px">
+                <img src="bag.png" height="30px" onclick="window.location.href = 'shopping.html'">
+            </div>
+    
         </div>
-
     </header>
 
     <!--title of the page "Order confirmation"-->
@@ -30,7 +42,7 @@
 
     <!--Mork packing picture (left)-->
     <div class="morkPackagingPic">
-        <img src="mork packaging.png" alt="Morkpackaging"
+        <img src="morkPackaging.png" alt="Morkpackaging"
         width="101"
         height="131">
     </div>
@@ -77,20 +89,34 @@
    <!--insert business logo below - Mork-->
 
    <div class="morkAlternativeLogo">
-    <img src="morkalternativelogo.png" alt="Mork alternative logo"
+    <img src="morkAltLogo.png" alt="Mork alternative logo"
             width="146"
             height="84">
    </div>
    
 
     <!--Back to home button to bring to main page-->
-    <button>BACK TO HOME</button>
+
+    <button class="back" onclick="window.location.href = 'index.html'">BACK TO HOME</button>
     
     <!--FOOTER-->
     <footer>
-        <h3>CONTACT US</h3>
-        <h4>contact@morkchocolate.com.au</h4>
-        <!-- add the icons and links to socials-->
+        <div class="footer">
+            <div class="contact">
+                <p>CONTACT US</p>
+                <p>contact@morkchocolate.com.au</p>
+            </div>    
+            
+            <div class="socials">
+                <a href="https://www.facebook.com/MorkChocolate/">
+                    <img src="facebook.png" height="30px">
+                </a>
+                <a href="https://www.instagram.com/morkchocolate/"> 
+                    <img src="instagram.png" height="30px">
+                </a>
+            </div>
+        </div>
+       
     </footer>
 </body>
 </html>

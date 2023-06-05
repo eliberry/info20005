@@ -1,15 +1,226 @@
+/* HEADER */
 header {
     background-color: #BFA891;
-    padding: 20px 10px;
-    text-align: left;
-    padding: 20px;
-    font-size: 30px;
+    padding: 30px 40px;
+    margin-top: 0px;
 }
 
-.contact {
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        padding-left: 30px;
+    } 
+
+    .about {
+        padding-right: 20px;
+        cursor: pointer;
+    }
+
+    .ourRange {
+        padding-right: 20px;
+        cursor: pointer;
+    }
+
+    .locations {
+        cursor: pointer;
+    }
+
+    .headerIcons {
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+/* SECTION */
+
+section{
+    background-color: #F4F1EB;
+    width: 1113px;
+    height: 60px;
+    margin: auto;
+    scale: 50%;
+}
+
+.bagIcon{
+    position: absolute;
+    width: 41px;
+    height: 35px;
+    left: 10px;
+    top: 20px;
+    scale: 8%;
+}
+
+.orderSummary{
+    text-align: center;
+    width: 202px;
+    height: 15px;
+}
+
+.openIcon{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 60px;
+    top: 20px;
+    scale: 8%;
+}
+
+/*CALCULATION OF TOTAL RIGHT*/
+
+.subtotal{
+    position: absolute;
+    width: 83px;
+    height: 12px;
+    top: 549px;
+    left: 637px;
+}
+
+.shipping{
+    position: absolute;
+    width: 75px;
+    height: 12px;
+    left: 637px;
+    top: 579px;
+}
+
+.subtotalAmount{
+    position: absolute;
+    width: 52px;
+    height: 12px;
+    left: 1109px;
+    top: 549px;
+}
+
+.shippingCost{
+    position: absolute;
+    width: 39px;
+    height: 12px;
+    left: 1123px;
+    top: 579px;
+}
+
+.one{
+    position: absolute;
+    width: 540px;
+    left: 633px;
+    top: 608px;
+}
+
+.totalIncGST{
+    position: absolute;
+    width: 133px;
+    height: 12px;
+    left: 637px;
+    top: 628px;
+}
+
+.totalIncGSTFINAL{
+    position: absolute;
+    width: 55px;
+    height: 12px;
+    left: 1106px;
+    top: 628px;
+}
+
+
+/*DETAILS CATEGORY*/
+
+/* .contact{
     position: absolute;
     width: 68px;
     height: 10px;
-    top: 320px;
     left: 94px;
+    top: 320px;
 }
+
+.deliverMethod{
+    position: absolute;
+    width: 131px;
+    height: 10px;
+    left: 94px;
+    top: 410px;
+}
+
+.shippingAddress{
+    position: absolute;
+    width: 135px;
+    height: 10px;
+    left: 94px;
+    top: 555px;
+}
+
+.payment{
+    position: absolute;
+    width: 66px;
+    height: 10px;
+    left: 637px;
+    top: 350px;
+}
+
+/*INSERT DETAILS*/
+
+/* #contact{
+    position: absolute;
+    width: 477px;
+    height: 40px;
+    left: 94px;
+    top: 340px;
+}
+
+.checkout{
+    position: absolute;
+    width: 68px;
+    height: 10px;
+    left: 94px;
+    top: 320px;
+}  */
+
+
+/* FOOTER */
+
+footer {
+    position: block; /* this makes weird padding but idk what to do about it tbh */
+    height: 183px;
+    left: 0px;
+    top: 1084px;
+    background: #F4F1EB;
+    padding-left: 30px;
+    min-width: 100%; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+    .socials {
+        padding-right: 30px; 
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+@media only screen and (max-width: 600px) {
+    footer {
+        background: #BFA891; /* changes colour of footer when on a small screen */
+    }
+    .menu {
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .about {
+        padding-right: 10px;
+    }
+    .ourrange {
+        padding-right: 10px;
+    }
+    .explore {
+        font-size: 20px;
+    }
+} 

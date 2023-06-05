@@ -10,24 +10,29 @@
 <body>
 
     <header>
-        <!--mork logo-->
-        <img src="mork logo.png" alt="Mork Chocolate Logo"
-            width="123.46"
-            height="100">
-        <!--menu subheadings-->
-        <!-- <div class="menu"> menu titles on the header of the website -->
-            <!-- <div class="about">ABOUT</div>
-            <div class="our_range">OUR RANGE</div>
-            <div class="location">LOCATION</div>
-        </div> -->
-
-        <div class="menu">
-            <p id="about">ABOUT</p>
-            <p id="ourRange">OUR RANGE</p>
-            <p id="about">LOCATIONS</p>
+        <div class="header">
+            <img src="morkLogo.png" alt="Mork Chocolate Logo" height="100px">
+    
+            <div class="menu">
+                <div class="about">
+                    <p>ABOUT</p>
+                </div>
+                
+                <div class="ourRange">
+                    <p>OUR RANGE</p>
+                </div>
+                
+                <div class="locations">
+                    <p>LOCATIONS</p>
+                </div>
+            </div>
+    
+            <div class="headerIcons">
+                <img src="search.png" height="30px">
+                <img src="bag.png" height="30px" onclick="window.location.href = 'shopping.html'">
+            </div>
+    
         </div>
-        
-
     </header>
 
     <!--title of the page "Shopping Bag"-->
@@ -38,7 +43,7 @@
 
     <!--Mork packing picture (left)-->
     <div class="morkPackagingPic">
-        <img src="mork packaging.png" alt="Morkpackaging"
+        <img src="morkPackaging.png" alt="Morkpackaging"
         width="180"
         height="236">
     </div>
@@ -62,36 +67,50 @@
     </div>
 
     <!--classifications of icons--> <!--change them to new ones and reattached file-->
-    <div class="icons">
-        <div class="searchIcon">
-            <img src="search.png" alt="Search Icon">
-        </div>
-        <div class="bagIcon">
-            <img src="bag.png" alt="Shopping Bag Icon">
-        </div>
-        <div class="closeIcon">
-            <img src="closeIcon.png" alt="Close X Icon">
-        </div>
-        <div class="minusIcon">
-            <img src="minusIcon.png" alt="Minus QTY Icon">
-        </div>
-        <div class="plusIcon">
-            <img src="plusIcon.png" alt="Plus QTY Icon">
-        </div>
-    </div>
 
     <!--input text for coupon code-->
     <input type="text" id="coupon" name="coupon" placeholder="Coupon code">
 
     <!--buttons for shopping cart page-->
     <button class="apply_coupon">APPLY COUPON</button> 
-    <button class="checkout">CHECKOUT</button> 
-    <button class="continue_shopping">CONTINUE SHOPPING</button> 
+    <button class="checkout" onclick="window.location.href ='payment.html'">CHECKOUT</button> 
+    <button class="continue_shopping" onclick="window.location.href = 'product.html'">CONTINUE SHOPPING</button> 
+
+    <!--icons-->
+    <div class="icons">
+        <div class="closeIcon">
+            <img src="closeIcon.png" alt="close">
+        </div>
+        <div class="minusIcon">
+            <img src="minusIcon.png" alt="minus">
+        </div>
+        <div class="plusIcon">
+            <img src="plusIcon.png" alt="plus">
+        </div>
+    </div>
+
+    <!--lines between the total amounts-->
+    <hr class="one">
+    <hr class="two">
+    <hr class="three">
 
     <footer>
-        <h3>CONTACT US</h3>
-        <h4>contact@morkchocolate.com.au</h4>
-        <!-- add the icons and links to socials-->
+        <div class="footer">
+            <div class="contact">
+                <p>CONTACT US</p>
+                <p>contact@morkchocolate.com.au</p>
+            </div>    
+            
+            <div class="socials">
+                <a href="https://www.facebook.com/MorkChocolate/">
+                    <img src="facebook.png" height="30px">
+                </a>
+                <a href="https://www.instagram.com/morkchocolate/"> 
+                    <img src="instagram.png" height="30px">
+                </a>
+            </div>
+        </div>
+       
     </footer>
 </body>
 </html>

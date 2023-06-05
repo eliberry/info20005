@@ -12,32 +12,43 @@
     <script src="payment.js"></script>
 
     <header>
-        <img src="mork logo.png" alt="Mork Chocolate Logo"
-            width="123.46"
-            height="100">
-        <!--menu subheadings-->
-        <div class="menu"> <!--menu titles on the header of the website-->
-            <div class="about">About</div>
-            <div class="our_range">Our Range</div>
-            <div class="location">Location</div>
+        <div class="header">
+            <img src="morkLogo.png" alt="Mork Chocolate Logo" height="100px">
+    
+            <div class="menu">
+                <div class="about">
+                    <p>ABOUT</p>
+                </div>
+                
+                <div class="ourRange">
+                    <p>OUR RANGE</p>
+                </div>
+                
+                <div class="locations">
+                    <p>LOCATIONS</p>
+                </div>
+            </div>
+    
+            <div class="headerIcons">
+                <img src="search.png" height="30px">
+                <img src="bag.png" height="30px" onclick="window.location.href = 'shopping.html'">
+            </div>
+    
         </div>
-
     </header>
 
-    <img src="mork packaging.png" alt="Mork packaging"
-        width="180"
-        height="236">
-    
-   <h1 style="font-family: Arial, Helvetica, sans-serif;">SHOPPING BAG</h1>
+<section>
+    <div class="orderSummarySection">
+        <div class="bagIcon">
+            <img src="bag.png" alt="bag">
+        </div>
+        <div class="orderSummary">Show order summary</div>
+        <div class="openIcon">
+            <img src="openIcon.png" alt="open">
+        </div>
+    </div>
+</section>
 
-<!--description of the shopping bag-->
-<div class="shoppingCartProduct"> <!--menu titles on the header of the website-->
-    <div class="name">ORIGINAL DARK - 70%</div>
-    <div class="grams">250g</div>
-    <div class="quantity">1</div>
-    <div class="price">Price</div>
-    <div class="amount">$27.00</div>
-</div>
 
 <!--calculation of the total amount in the shopping bag-->
 <div class="calculationOfTotal"> <!--menu titles on the header of the website-->
@@ -45,7 +56,9 @@
     <div class="subtotalAmount">$27.00</div>
     <div class="shipping">SHIPPING CALCULATED AT CHECKOUT</div>
     <div class="shippingCost">FREE</div>
+    <hr class="one">
     <div class="totalIncGST">TOTAL INCL. GST</div>
+    <div class="totalIncGSTFINAL">$27.00</div>
 </div>
 
 <!--order summary details page in payment/delivery-->
@@ -103,31 +116,38 @@
         </div>
     </div>
 
-<!-- 
-    <div class="firstName">First name</div>
-    <div class="lasttName">Last name</div>
-    <div class="address">Address</div>
-    <div class="apartment">Apartment, suite, etc (optional)</div>
-    <div class="suburb">Suburb</div>
-    <div class="stateOrTerritory">State/territory</div>
-    <div class="postcode">Postcode</div>
-    <div class="phone">Phone</div>
-    <div class="monthYear">MM / YY</div>
-    <div class="cvv">CVV</div> -->
+
 </div>
 
 <!--create a border behind the text-->
 
 <!--buttons for shopping cart page-->
-<button class="checkout">CHECKOUT</button> 
+<button class="checkout" onclick="window.location.href='confirmation.html'">CHECKOUT</button> 
+
+
+
+
 
 <!--inserting icons with the image src (download them and then position in CSS)-->
 
 
-    <footer>
-        <h3>CONTACT US</h3>
-        <h4>contact@morkchocolate.com.au</h4>
-        <!-- add the icons and links to socials-->
-    </footer>
+<footer>
+    <div class="footer">
+        <div class="contact">
+            <p>CONTACT US</p>
+            <p>contact@morkchocolate.com.au</p>
+        </div>    
+        
+        <div class="socials">
+            <a href="https://www.facebook.com/MorkChocolate/">
+                <img src="facebook.png" height="30px">
+            </a>
+            <a href="https://www.instagram.com/morkchocolate/"> 
+                <img src="instagram.png" height="30px">
+            </a>
+        </div>
+    </div>
+   
+</footer>
 </body>
 </html>

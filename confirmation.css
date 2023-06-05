@@ -1,78 +1,47 @@
 /* HEADER */
 
 /* ensure to incorporate changes before submitting the final from idex */
+
 header {
     background-color: #BFA891;
-    text-align: left;
     padding: 30px 40px;
-    margin-top: auto;
+    margin-top: 0px;
 }
 
-/* HEADER - MENU */
-.about {
-    position: absolute;
-    width: 56px;
-    height: 12px;
-    left: 219px;
-    top: 84px;
-
-    /* might change the font later on to a san serif one*/
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 12px;
-
-    /* leading-trim: both;
-    text-edge: cap; */
+.header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-
-    color: #333333;
+    flex-direction: row;
+    max-width: 100%;
 }
 
-.our_range {
-    position: absolute;
-    width: 94px;
-    height: 12px;
-    left: 325px;
-    top: 84px;
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        padding-left: 30px;
+    } 
 
-    /* might change the font later on to a san serif one*/
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 12px;
+    .about {
+        padding-right: 20px;
+        cursor: pointer;
+    }
 
-    /* leading-trim: both;
-    text-edge: cap; */
-    display: flex;
-    align-items: center;
+    .ourRange {
+        padding-right: 20px;
+        cursor: pointer;
+    }
 
-    color: #333333;
-}
+    .locations {
+        cursor: pointer;
+    }
 
-.location {
-    position: absolute;
-    width: 102px;
-    height: 12px;
-    left: 469px;
-    top: 84px;
+    .headerIcons {
+        margin-left: auto;
+        cursor: pointer;
+    }
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 12px;
-
-    /* leading-trim: both;
-    text-edge: cap; */
-    display: flex;
-    align-items: center;
-
-    color: #333333;
-}
 
 /* BODY */
 
@@ -132,6 +101,14 @@ body {
     height: 15px;
     left: 187px;
     top: 299px;
+}
+
+.morkPackagingPic{
+    position: absolute;
+    width: 101px;
+    height: 131px;
+    left: 180px;
+    top: 343px;
 }
 
 .name {
@@ -292,28 +269,51 @@ hr {
 }
 
 h5 {
-    position: absolute;
+    margin: auto;
     width: 347px;
     height: 65px;
     left: 467px;
     top: 833px;
 }
 
-/* .morkAlternativeLogo {
-    dwf
+
+
+
+.morkAlternativeLogo{
+    margin: auto;
+    width: 146px;
+    height: 84px;
+    left: 567px;
+    top: 891px;
 }
 
+/*FOOTER*/
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+    .socials {
+        padding-right: 30px; 
+        padding-top: 10px;
+        cursor: pointer;
+    }
 
-
-/* FOOTER */
-/* copy and paste from index when finalised */
-/* footer {
-    margin: auto;
-    width: 1280px;
-    height: 183px;
-    left: 0px;
-    top: 1084px;
-    background: #F4F1EB;
-    padding: 30px 40px;
-}  */
+@media only screen and (max-width: 600px) {
+    footer {
+        background: #BFA891; /* changes colour of footer when on a small screen */
+    }
+    .menu {
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .about {
+        padding-right: 10px;
+    }
+    .ourrange {
+        padding-right: 10px;
+    }
+    .explore {
+        font-size: 20px;
+    }
+} 
