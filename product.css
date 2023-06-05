@@ -36,11 +36,11 @@ header {
         padding-right: 20px;
     }
 
-    .ourrange {
+    .ourRange {
         padding-right: 20px;
     }
 
-    .headericons {
+    .headerIcons {
         margin-left: auto;
     }
 
@@ -49,21 +49,21 @@ header {
     align-items: center;
 }
 
-.producttext {
+.productText {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.productdesc {
+.productDesc {
     font-size: 10px;
 }
 
-.productingredients {
+.productIngredients {
     font-size: 8px;
 }
 
-.productadd {
+.productAdd {
     display: flex;
     flex-direction: row; /* need to center */
     justify-content: space-around;

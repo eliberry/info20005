@@ -35,11 +35,11 @@ header {
         padding-right: 20px;
     }
 
-    .ourrange {
+    .ourRange {
         padding-right: 20px;
     }
 
-    .headericons {
+    .headerIcons {
         margin-left: auto;
     }
 
@@ -52,7 +52,7 @@ header {
     font-size: 20px;
 }
 
-.explorebox {
+.exploreBox {
     display: flex;
 }
 
@@ -63,7 +63,7 @@ header {
         font-size: 38px;
     }
 
-    .explorepicture {
+    .explorePicture {
         width: 360px;
         height: 472.78px;
         transform: rotate(-20deg);
@@ -71,13 +71,13 @@ header {
         padding-right: 100px;
     }
 
-.learnbox {
+.learnBox {
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-    .processpicture {
+    .processPicture {
         transform: rotate(-32deg);
     }
 

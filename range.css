@@ -34,11 +34,11 @@ header {
         padding-right: 20px;
     }
 
-    .ourrange {
+    .ourRange {
         padding-right: 20px;
     }
 
-    .headericons {
+    .headerIcons {
         margin-left: auto;
     }
 
@@ -47,7 +47,7 @@ header {
     text-align: center; 
 }
 
-.infotext {
+.infoText {
     font-size: 12px;
     max-width: 325px;/* means it cant be centered tho */
 }
@@ -64,7 +64,7 @@ header {
     color: #333333;
 }
 
-.productgrid {
+.productGrid {
     display: flex;
     flex-wrap: wrap;
     max-width: 600px; /* makes the container 600px but also means it can't be in center of page hmm */
@@ -79,11 +79,11 @@ header {
     flex-direction: column; /*need to put it to the right of the image tho hmmmm */
 }
 
-.specialtitle {
+.specialTitle {
     font-size: 15px;
 }
 
-.specialtext {
+.specialText {
     font-size: 10px;
     max-width: 250px;
 }
