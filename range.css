@@ -95,6 +95,10 @@ header {
     max-width: 250px;
 }
 
+.original {
+    cursor: pointer;
+}
+
 footer {
     position: block;
     height: 183px;
